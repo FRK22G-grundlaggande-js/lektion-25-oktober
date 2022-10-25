@@ -16,7 +16,7 @@ function showSum(sum) {
 }
 
 buttonElem.addEventListener('click', function() {
-    const firstNumber = parseInt(inputElem.value);
+    const firstNumber = parseInt(inputElem.value); // parseInt gör om från sträng till nummer, "1" > 1
     const secondNumber = parseInt(secondInput.value);
 
     const result = add(firstNumber, secondNumber);
