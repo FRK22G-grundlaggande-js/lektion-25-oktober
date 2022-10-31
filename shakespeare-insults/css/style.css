@@ -1,0 +1,27 @@
+:root {
+    font-family: 'IM Fell English SC', serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #eee;
+}
+
+blockquote {
+    margin: auto;
+    font-size: 3rem;
+    max-width: 40rem;
+    padding: 1rem;
+    line-height: 90%;
+}
+
+blockquote span {
+    color: red;
+}
+
+button {
+    margin: 3rem auto;
+}
